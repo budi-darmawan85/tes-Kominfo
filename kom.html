@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title> SOAL NO 1 </title>
+</head>
+<body>
+
+<form methode="#" action="#">
+ 	<div>
+		<label id=""> NIP </label>
+		<input type="text" id="nip">
+	<div>
+	
+	
+	<button type="buton" onclick="cek()"> CEK NIP </button>
+	
+	<div>
+		<label> NAMA "automatis" </label>
+		<output type="text" id="nama">
+	<div>
+	
+	<div>
+		<label for="dateInput"> Tanggal Mulai </label>
+		<input type="date" id="tMulai">
+	<div>
+	
+	<div>
+		<label> Tanggal Selesai </label>
+		<input type="date" id="tSelesai">
+	<div>
+	
+	<div>
+		<label> Jenis Keterangan </label>
+		<input type="text"  id="jenisK">
+	<div>
+	
+	<div>
+		<label> Sub Jenis Keterangan </label>
+		<input type="list" id="sub">
+	<div>
+	
+	<div>
+		<label> Nomor Surat Cuti/Tugas/Belajar </label>
+		<input type="number" id="nomor">
+	<div>
+	
+	<div>
+		<label> Keterangan </label>
+		<input type="text" id="ket">
+	<div>
+	
+	<div>
+		<label> Tanggal Saat ini </label>
+		<input type="date" id="tgl ">
+	<div>
+	
+	<div>
+		<button type="button" onclick="simpan()">Simpan</button>
+	<div>
+	
+<p><hr> </hr></p>
+
+</form>
+		
+
+	<script>
+	function cek(){
+		var a = document.getElementById("nip");
+				if(a = "1"){document.getElementById("nama").innerHTML="budi";}
+				else {document.getElementById("nama").innerHTML="budi";}
+				};
+			
+	var jenis = ["Cuti", "DINAS", "PENDIDIKAN"];
+	document.getElementById.("jenisK")innerHTML=jenis;
+	
+	
+	
+	
+	function simpan(){
+	var nip = document.getElementById("nip");
+	var nama = document.getElementById("nama");
+	var tMulai = document.getElementById("tMulai");
+	var tSelesai = document.getElementById("tSelesai");
+	var jenisK = document.getElementById("jenisK");
+	var sub = document.getElementById("sub");
+	var nomor = document.getElementById("nomor");
+	var ket = document.getElementById("ket");
+	var tgl = document.getElementById("tgl");
+	
+		document.write("<p>"nip"</p>");
+	
+	};
+	
+	</script>
+
+
+</body>
+
+</html>
